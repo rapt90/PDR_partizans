@@ -18,5 +18,11 @@ pvpfw_chatIntercept_allCommands = [
 		{
 			[] remoteExec ["fn_burnCityServer", 2];
 		}
+	],
+	[
+		"doAirdrop",
+		{
+			[[1], "showHiddenGroup.sqf"] remoteExec ["execVM",2];
+		}
 	]
 ];
