@@ -24,5 +24,11 @@ pvpfw_chatIntercept_allCommands = [
 		{
 			[[1], "showHiddenGroup.sqf"] remoteExec ["execVM",2];
 		}
+	],
+	[
+		"doAlarm",
+		{
+			[] remoteExec ["fn_alarmServer",2];
+		}
 	]
 ];
