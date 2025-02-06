@@ -30,5 +30,16 @@ pvpfw_chatIntercept_allCommands = [
 		{
 			[] remoteExec ["fn_alarmServer",2];
 		}
+	],
+	[
+		"doConvoy",
+		{
+			[] remoteExec ["fn_convoyGoServer",2];
+		}
 	]
 ];
+
+fn_convoyGoServer = {
+	DIVE_ConvoyGo = true;
+};
+
